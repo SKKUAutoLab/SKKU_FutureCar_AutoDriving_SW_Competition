@@ -16,12 +16,12 @@ void loop() {
   
   // Forward
   Serial.println("Motor Forward");
-  motor_forward(motorA1, motorA2, 75);
+  motor_forward(motorA1, motorA2, 175);
   delay(3000);
 
   // Backward
   Serial.println("Motor Backward");
-  motor_backward(motorA1, motorA2, 150);
+  motor_backward(motorA1, motorA2, 175);
   delay(3000);
 
   // Hold
