@@ -1,7 +1,7 @@
 #include <Car_Library.h>
 
 int trig = 3;     // trig Pin
-int echo = 4;     // echo Pin
+int echo = 2;     // echo Pin
 
 void setup() {
   // put your setup code here, to run once:
